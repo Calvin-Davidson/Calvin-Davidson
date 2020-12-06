@@ -1,16 +1,38 @@
-### Hi there 👋
+```java
+public class Croyke extends GitHubUser {
 
-<!--
-**Calvin-Davidson/Calvin-Davidson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  public Croyke() {
+    super("Croyke", "Netherlands");
 
-Here are some ideas to get you started:
+    this.addLanguage("Java", "C#", "Javascript", "c++", "html", "css");
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public abstract class GitHubUser {
+
+  private final String name;
+  private final String country;
+
+  private ArrayList<String> languages = new ArrayList<>();
+
+  public GitHubUser(String name, String country) {
+      this.name = name;
+      this.country = country;
+  }
+
+  public void addLanguage(String... language) {
+    languages.addAll(language);
+  }
+}
+```
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Calvin-Davidson&count_private=true&show_icons=true&theme=dark&hide_border=false" alt="github stats">
+    </td>
+    <td>
+      <img src="https://wakatime.com/share/@e837145a-31e5-48fd-ae85-70bcf7426b10/b55d74c9-3719-45de-98ba-1b0c6ec2f52e.svg" alt="wakatime stats" height=195>
+    </td>
+  </tr>
+</table>
