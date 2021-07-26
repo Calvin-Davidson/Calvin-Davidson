@@ -5,6 +5,7 @@ public class Croyke extends GitHubUser {
     super("Croyke", "Netherlands");
 
     this.addLanguage("Java", "C#", "Javascript", "c++", "html", "css");
+    this.addSoftware("Unity", "jetbrains rider");
   }
 }
 
@@ -14,6 +15,7 @@ public abstract class GitHubUser {
   private final String country;
 
   private ArrayList<String> languages = new ArrayList<>();
+  private ArrayList<String> software = new ArrayList<>();
 
   public GitHubUser(String name, String country) {
       this.name = name;
@@ -22,6 +24,10 @@ public abstract class GitHubUser {
 
   public void addLanguage(String... language) {
     languages.addAll(language);
+  }
+  
+  public void addSoftware(String... software) {
+    software.addAll(software);
   }
 }
 ```
