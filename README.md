@@ -37,8 +37,5 @@ public abstract class GitHubUser {
     <td>
       <img src="https://github-readme-stats.vercel.app/api?username=Calvin-Davidson&count_private=true&show_icons=true&theme=dark&hide_border=false" alt="github stats">
     </td>
-    <td>
-      <img src="https://wakatime.com/share/@e837145a-31e5-48fd-ae85-70bcf7426b10/204c36fb-8fa9-46c3-ae0d-4a8dbbee943d.svg" alt="wakatime stats" height=195>
-    </td>
   </tr>
 </table>
